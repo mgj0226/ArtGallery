@@ -1,0 +1,26 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "MGJCHAN0425.moc3",
+		"Textures": [
+			"MGJCHAN0425.8192/texture_00.png"
+		],
+		"Physics": "MGJCHAN0425.physics3.json",
+		"DisplayInfo": "MGJCHAN0425.cdi3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		}
+	]
+}
